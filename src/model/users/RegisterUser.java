@@ -1,6 +1,6 @@
 package model.users;
 
-public class RegisterUser {
+public class RegisterUser extends GuestUser{
 	private long r_ID;
 	private String username;
 	private String password;			//TODO MD5 hashing

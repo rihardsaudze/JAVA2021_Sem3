@@ -19,15 +19,7 @@ public class GuestUser {
 	
 	@Override
 	public String toString() {
-		return "GuestUser [g_ID=" + g_ID + "]";
+		return "" + g_ID;
 	}
-	
-	//1. Register
-	
-	//3. Search public posts
-	
-	//6.
-	
-	//7.
 	
 }
