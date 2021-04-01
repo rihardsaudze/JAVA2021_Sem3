@@ -2,9 +2,9 @@ package service;
 
 import java.util.ArrayList;
 import model.users.RegisterUser;
+import model.Page;
+import model.Post;
 import model.users.BusinessUser;
-import model.users.Page;
-import model.users.Post;
 
 public interface IGuestUserService {
 	//1. Register
@@ -17,5 +17,5 @@ public interface IGuestUserService {
 	public ArrayList<BusinessUser> searchBusinessUser(String searchedWord);
 	
 	//7. Search pages
-	public ArrayList<Page> searchPage(String searchedWord);
+	public ArrayList<Page> searchPages(String searchedWord);
 }

@@ -1,6 +1,9 @@
 package model.users;
 
-public class RegisterUser extends GuestUser{
+import service.impl.*;
+
+public class RegisterUser extends GuestUser {
+	public static RegisterUserServiceImpl registerUserService = new RegisterUserServiceImpl();
 	private long r_ID;
 	private String username;
 	private String password;			//TODO MD5 hashing

@@ -2,6 +2,8 @@ package model.users;
 
 import java.util.ArrayList;
 
+import model.Post;
+
 public class PrivateUser extends RegisterUser {
 	private long p_ID;
 	private static long counter = 0;

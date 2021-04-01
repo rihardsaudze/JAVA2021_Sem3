@@ -1,6 +1,9 @@
 package model.users;
 
+import service.impl.*;
+
 public class GuestUser {
+	public static GuestUserServiceImpl guestService = new GuestUserServiceImpl();
 	private long g_ID;
 	
 	private static long counter = 0;

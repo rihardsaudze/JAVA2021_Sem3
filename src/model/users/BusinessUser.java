@@ -2,6 +2,8 @@ package model.users;
 
 import java.util.ArrayList;
 
+import model.Page;
+
 public class BusinessUser extends RegisterUser {
 	private long b_ID;
 	private static long counter = 0;
